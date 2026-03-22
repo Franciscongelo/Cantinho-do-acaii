@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cantinho do Açaí</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f7f7;
+    }
+
+    header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    nav {
+      background-color: #2e0f36;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: white;
+    }
+
+    .hero h2 {
+      color: #4b1d5a;
+    }
+
+    .cardapio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .item h3 {
+      color: #4b1d5a;
+    }
+
+    .preco {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .botao {
+      background-color: #7b2cbf;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .contato {
+      background-color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #4b1d5a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .whatsapp-fixo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 15px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="banner.jpg" alt="Cantinho do Açaí">
+</header>
+
+<nav>
+  <a href="#inicio">Início</a>
+  <a href="#cardapio">Cardápio</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section class="hero" id="inicio">
+  <h2>Peça seu açaí agora!</h2>
+  <p>Delivery rápido e sabor incrível 🍧</p>
+</section>
+
+<section id="cardapio">
+  <h2 style="text-align:center;">Nosso Cardápio</h2>
+
+  <div class="cardapio">
+
+    <div class="item">
+      <h3>Açaí 300ml</h3>
+      <p>Banana + Granola</p>
+      <div class="preco">R$ 8,00</div>
+      <a class="botao" href="https://wa.me/5585992559532?text=Ol%C3%A1%2C%20quero%20um%20a%C3%A7a%C3%AD%20300ml">
+        Pedir
+      </a>
+    </div>
+
+    <div class="item">
+      <h3>Açaí 500ml</h3>
+      <p>3 acompanhamentos</p>
+      <div class="preco">R$ 12,00</div>
+      <a class="botao" href="https://wa.me/5585992559532?text=Ol%C3%A1%2C%20quero%20um%20a%C3%A7a%C3%AD%20500ml">
+        Pedir
+      </a>
+    </div>
+
+    <div class="item">
+      <h3>Açaí 700ml</h3>
+      <p>Completo</p>
+      <div class="preco">R$ 16,00</div>
+      <a class="botao" href="https://wa.me/5585992559532?text=Ol%C3%A1%2C%20quero%20um%20a%C3%A7a%C3%AD%20700ml">
+        Pedir
+      </a>
+    </div>
+
+    <div class="item">
+      <h3>Açaí com Nutella</h3>
+      <p>Especial da casa</p>
+      <div class="preco">R$ 18,00</div>
+      <a class="botao" href="https://wa.me/5585992559532?text=Ol%C3%A1%2C%20quero%20um%20a%C3%A7a%C3%AD%20com%20Nutella">
+        Pedir
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <h2>Contato</h2>
+  <p><strong>Local:</strong> Pátio da Pele - Sítio Guarda</p>
+  <p><strong>WhatsApp:</strong> (85) 99255-9532</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Cantinho do Açaí</p>
+</footer>
+
+<a class="whatsapp-fixo" href="https://wa.me/5585992559532?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido">
+  Pedir no WhatsApp
+</a>
+
+</body>
+</html>
